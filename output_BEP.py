@@ -26,7 +26,7 @@ class Ui_Form(object):
         Form.resize(1002, 819)
         self.frame_2 = QFrame(Form)
         self.frame_2.setObjectName(u"frame_2")
-        self.frame_2.setGeometry(QRect(20, 0, 961, 231))
+        self.frame_2.setGeometry(QRect(20, 0, 961, 221))
         self.frame_2.setStyleSheet(u"background-color: rgb(0, 166, 214);")
         self.frame_2.setFrameShape(QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QFrame.Raised)
@@ -184,7 +184,7 @@ class Ui_Form(object):
 
         self.layoutWidget2 = QWidget(self.frame_2)
         self.layoutWidget2.setObjectName(u"layoutWidget2")
-        self.layoutWidget2.setGeometry(QRect(680, 50, 271, 91))
+        self.layoutWidget2.setGeometry(QRect(680, 50, 275, 91))
         self.gridLayout_3 = QGridLayout(self.layoutWidget2)
         self.gridLayout_3.setObjectName(u"gridLayout_3")
         self.gridLayout_3.setContentsMargins(0, 0, 0, 0)
@@ -239,72 +239,80 @@ class Ui_Form(object):
 
         self.gridLayout_3.addWidget(self.label_18, 0, 0, 1, 1)
 
-        self.widget = QWidget(self.frame_2)
-        self.widget.setObjectName(u"widget")
-        self.widget.setGeometry(QRect(330, 180, 351, 36))
-        self.horizontalLayout = QHBoxLayout(self.widget)
+        self.layoutWidget3 = QWidget(self.frame_2)
+        self.layoutWidget3.setObjectName(u"layoutWidget3")
+        self.layoutWidget3.setGeometry(QRect(330, 180, 351, 36))
+        self.horizontalLayout = QHBoxLayout(self.layoutWidget3)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
-        self.label_27 = QLabel(self.widget)
+        self.label_27 = QLabel(self.layoutWidget3)
         self.label_27.setObjectName(u"label_27")
 
         self.horizontalLayout.addWidget(self.label_27)
 
-        self.spinBox = QSpinBox(self.widget)
+        self.spinBox = QSpinBox(self.layoutWidget3)
         self.spinBox.setObjectName(u"spinBox")
         self.spinBox.setStyleSheet(u"background-color: rgb(255, 255, 255);")
         self.spinBox.setMinimum(1)
 
         self.horizontalLayout.addWidget(self.spinBox)
 
-        self.pushButton_start = QPushButton(self.widget)
+        self.pushButton_start = QPushButton(self.layoutWidget3)
         self.pushButton_start.setObjectName(u"pushButton_start")
         self.pushButton_start.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "background-color: rgb(12, 35, 64);")
 
         self.horizontalLayout.addWidget(self.pushButton_start)
 
-        self.widget1 = QWidget(self.frame_2)
-        self.widget1.setObjectName(u"widget1")
-        self.widget1.setGeometry(QRect(740, 160, 201, 61))
-        self.gridLayout_5 = QGridLayout(self.widget1)
+        self.layoutWidget4 = QWidget(self.frame_2)
+        self.layoutWidget4.setObjectName(u"layoutWidget4")
+        self.layoutWidget4.setGeometry(QRect(740, 150, 202, 65))
+        self.gridLayout_5 = QGridLayout(self.layoutWidget4)
         self.gridLayout_5.setObjectName(u"gridLayout_5")
         self.gridLayout_5.setContentsMargins(0, 0, 0, 0)
-        self.pushButton_start_2 = QPushButton(self.widget1)
+        self.pushButton_start_2 = QPushButton(self.layoutWidget4)
         self.pushButton_start_2.setObjectName(u"pushButton_start_2")
         self.pushButton_start_2.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "background-color: rgb(12, 35, 64);")
 
         self.gridLayout_5.addWidget(self.pushButton_start_2, 0, 0, 1, 1)
 
-        self.pushButton_start_3 = QPushButton(self.widget1)
+        self.pushButton_start_3 = QPushButton(self.layoutWidget4)
         self.pushButton_start_3.setObjectName(u"pushButton_start_3")
         self.pushButton_start_3.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "background-color: rgb(12, 35, 64);")
 
         self.gridLayout_5.addWidget(self.pushButton_start_3, 0, 1, 1, 1)
 
-        self.pushButton_start_4 = QPushButton(self.widget1)
+        self.pushButton_start_4 = QPushButton(self.layoutWidget4)
         self.pushButton_start_4.setObjectName(u"pushButton_start_4")
         self.pushButton_start_4.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "background-color: rgb(12, 35, 64);")
 
         self.gridLayout_5.addWidget(self.pushButton_start_4, 1, 0, 1, 1)
 
-        self.pushButton_start_5 = QPushButton(self.widget1)
+        self.pushButton_start_5 = QPushButton(self.layoutWidget4)
         self.pushButton_start_5.setObjectName(u"pushButton_start_5")
         self.pushButton_start_5.setStyleSheet(u"color: rgb(255, 255, 255);\n"
 "background-color: rgb(12, 35, 64);")
 
         self.gridLayout_5.addWidget(self.pushButton_start_5, 1, 1, 1, 1)
 
-        self.layoutWidget3 = QWidget(Form)
-        self.layoutWidget3.setObjectName(u"layoutWidget3")
-        self.layoutWidget3.setGeometry(QRect(20, 240, 961, 591))
-        self.gridLayout_4 = QGridLayout(self.layoutWidget3)
+        self.layoutWidget5 = QWidget(Form)
+        self.layoutWidget5.setObjectName(u"layoutWidget5")
+        self.layoutWidget5.setGeometry(QRect(20, 230, 961, 581))
+        self.gridLayout_4 = QGridLayout(self.layoutWidget5)
         self.gridLayout_4.setObjectName(u"gridLayout_4")
         self.gridLayout_4.setContentsMargins(0, 0, 0, 0)
-        self.frame_4 = QFrame(self.layoutWidget3)
+        self.frame_1 = QFrame(self.layoutWidget5)
+        self.frame_1.setObjectName(u"frame_1")
+        self.frame_1.setStyleSheet(u"background-color: rgb(255, 255, 255);")
+        self.frame_1.setFrameShape(QFrame.StyledPanel)
+        self.frame_1.setFrameShadow(QFrame.Raised)
+
+        self.gridLayout_4.addWidget(self.frame_1, 0, 0, 1, 1)
+
+        self.frame_4 = QFrame(self.layoutWidget5)
         self.frame_4.setObjectName(u"frame_4")
         self.frame_4.setStyleSheet(u"background-color: rgb(255, 255, 255);")
         self.frame_4.setFrameShape(QFrame.StyledPanel)
@@ -312,7 +320,7 @@ class Ui_Form(object):
 
         self.gridLayout_4.addWidget(self.frame_4, 1, 0, 1, 1)
 
-        self.frame_5 = QFrame(self.layoutWidget3)
+        self.frame_5 = QFrame(self.layoutWidget5)
         self.frame_5.setObjectName(u"frame_5")
         self.frame_5.setStyleSheet(u"background-color: rgb(255, 255, 255);")
         self.frame_5.setFrameShape(QFrame.StyledPanel)
@@ -320,21 +328,13 @@ class Ui_Form(object):
 
         self.gridLayout_4.addWidget(self.frame_5, 1, 1, 1, 1)
 
-        self.frame_3 = QFrame(self.layoutWidget3)
+        self.frame_3 = QFrame(self.layoutWidget5)
         self.frame_3.setObjectName(u"frame_3")
         self.frame_3.setStyleSheet(u"background-color: rgb(255, 255, 255);")
         self.frame_3.setFrameShape(QFrame.StyledPanel)
         self.frame_3.setFrameShadow(QFrame.Raised)
 
         self.gridLayout_4.addWidget(self.frame_3, 0, 1, 1, 1)
-
-        self.frame_1 = QFrame(self.layoutWidget3)
-        self.frame_1.setObjectName(u"frame_1")
-        self.frame_1.setStyleSheet(u"background-color: rgb(255, 255, 255);")
-        self.frame_1.setFrameShape(QFrame.StyledPanel)
-        self.frame_1.setFrameShadow(QFrame.Raised)
-
-        self.gridLayout_4.addWidget(self.frame_1, 0, 0, 1, 1)
 
 
         self.retranslateUi(Form)
