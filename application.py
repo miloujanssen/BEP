@@ -2,8 +2,8 @@
 from PySide6.QtCore import Slot
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from PySide6.QtWidgets import QMainWindow, QVBoxLayout, QMessageBox
-from project.ui.output_BEP import Ui_Form
-from project.back_end.functies import Functies
+from output_BEP import Ui_Form
+from functies import Functies
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
