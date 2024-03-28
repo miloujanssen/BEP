@@ -4,7 +4,7 @@ import sys
 
 from PySide6.QtWidgets import QApplication
 
-from project.application import Application
+from application import Application
 
 
 if __name__ == "__main__":
